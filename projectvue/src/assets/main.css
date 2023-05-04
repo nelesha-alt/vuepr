@@ -1,18 +1,20 @@
 body {
   margin-top:250px;
 }
-h1 {
+.multi {
   text-align:center;
   margin: 150px;
   margin-top:200px;
-  color: #3aa843;
+  color:rgb(32, 219, 88);
   font-size: 36px;
   line-height: 42px;
 }
 
+
+
 p {
   text-align:center;
-  margin-top:230px;
+  margin-top:220px;
 }
 
 .input-container {
@@ -20,13 +22,26 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+}
+
+input {
+  border:none;
+  position:relative;
 }
 
 label{
   font-size:20px;
   margin-right:20px;
+  
 }
 
+.cnt {
+  background-color: rgba(17, 16, 16, 0.781);
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
 
 
