@@ -1,3 +1,6 @@
+body {
+  margin-top:250px;
+}
 h1 {
   text-align:center;
   margin: 150px;
@@ -12,8 +15,17 @@ p {
   margin-top:230px;
 }
 
-input {
+.input-container {
+  margin-top:30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
+}
+
+label{
+  font-size:20px;
+  margin-right:20px;
 }
 
 
